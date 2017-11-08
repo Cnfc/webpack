@@ -78,7 +78,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var $ = __webpack_require__(3);
 function Person() {
-  console.log('lalal');
+  console.log('jq is working');
 };
 $('h2').remove();
 exports.default = Person;

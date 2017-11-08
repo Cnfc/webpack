@@ -1,0 +1,4 @@
+.icon-user {
+  @extend .fa;
+  @extend .fa-user;
+}
