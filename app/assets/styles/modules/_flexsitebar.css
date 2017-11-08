@@ -5,12 +5,15 @@
   color: red;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   border: 10px solid pink;
-}
-.section{
+  flex-wrap: wrap;
+  &--section{
+  padding: 10px;
+  }
 
- }
- .item {
-   color: white;
-   /*font-size: 20px;*/
- }
+  &--item {
+    color: white;
+    font-size: 20px;
+  }
+}

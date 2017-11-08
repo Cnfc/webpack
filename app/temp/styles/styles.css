@@ -515,14 +515,19 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   border: 10px solid pink;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.section{
+.sitebar--section{
+  padding: 10px;
+}
 
- }
-
-.item {
-   color: white;
-   /*font-size: 20px;*/
- }
+.sitebar--item {
+  color: white;
+  font-size: 20px;
+}
