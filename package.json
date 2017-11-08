@@ -1,5 +1,5 @@
 {
-  "name": "webpack",
+  "name": "tutorial-site",
   "version": "1.0.0",
   "dependencies": {
     "gulp-cssnano": "^2.1.2",
@@ -33,6 +33,6 @@
     "postcss-mixins": "^5.4.1",
     "postcss-nested": "^1.0.1",
     "postcss-simple-vars": "^3.1.0",
-    "webpack": "^2.4.1"
+    "webpack": "^2.2.1"
   }
 }
