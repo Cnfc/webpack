@@ -499,22 +499,30 @@ a {
   margin-top: 0;
 }
 
-.Main {
-  color:red;
+body {
+  margin: 0;
 }
 
-.Main--par {
-  color: blue;
-}
-
-.section--sitebar{
+.sitebar {
   height: 100vh;
   width: 15vh;
   background: #34495e;
   color: red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 10px solid pink;
 }
 
-.section--item {
-  color: white;
-  font-size: 20px;
-}
+.section{
+
+ }
+
+.item {
+   color: white;
+   /*font-size: 20px;*/
+ }

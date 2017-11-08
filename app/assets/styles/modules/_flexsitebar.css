@@ -1,14 +1,16 @@
-
-
-.section {
- &--sitebar{
-   height: 100vh;
-   width: 15vh;
-   background: #34495e;
-   color: red;
- }
- &--item {
-   color: white;
-   font-size: 20px;
- }
+.sitebar {
+  height: 100vh;
+  width: 15vh;
+  background: #34495e;
+  color: red;
+  display: flex;
+  flex-direction: column;
+  border: 10px solid pink;
 }
+.section{
+
+ }
+ .item {
+   color: white;
+   /*font-size: 20px;*/
+ }

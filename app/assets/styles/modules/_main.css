@@ -1,6 +1,3 @@
-.Main {
-  color:red;
-  &--par {
-    color: blue;
-  }
+body {
+  margin: 0;
 }
