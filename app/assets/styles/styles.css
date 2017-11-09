@@ -5,5 +5,10 @@
 @import "modules/_headline";
 @import "modules/_main";
 @import "modules/_flexsitebar";
+@import "modules/_feature-item";
 /*@import "modules/_navbar";*/
 @import "modules/_flex";
+
+@import "modules/_sprite";
+@import "modules/_modal";
+@import "modules/_social-icons";
