@@ -1,9 +1,9 @@
 @import "normalize.css";
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
 @import "base/_variables";
 @import "base/_mixins";
 @import "base/_global";
 @import "modules/_headline";
 @import "modules/_main";
 @import "modules/_flexsitebar";
-@import "modules/_navbar";
+/*@import "modules/_navbar";*/
+@import "modules/_flex";
