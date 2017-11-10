@@ -1,7 +1,9 @@
+html,
 body {
     font-family: 'Roboto', sans-serif;
-    color: #333;
     margin: 0;
+    height: 100%;
+
 }
 
 img {
@@ -10,10 +12,11 @@ img {
 }
 
 * {
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 a {
   color: $mainOrange;
 }
-
